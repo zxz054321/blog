@@ -1,3 +1,5 @@
+pwd_regex: '.{6,}'
+
 home:
   alias: '/blog'
 

@@ -1,0 +1,11 @@
+email: zxz054321@foxmail.com
+fullname: Abel
+title: Artisan
+state: enabled
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$vzmKu5yDYNacqZqPC4OfZ.2vkFV/gMCPSPx6G9hboGQANhZLqjBSa
