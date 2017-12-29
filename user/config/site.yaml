@@ -1,29 +1,40 @@
-title: Saturn
-intro: Hello, I’m Saturn. I’m proud to be a part of milky way
-
-# Avatar must be uploaded to theme "img" folder.
-intro_avatar: avatar.png
+title: Abel
+default_lang: en
 author:
-  name: Afnizar Nur Ghifari
-  email: 'test@test.com'
-  footer: handcrafted by @flamekaizar
-  footer2: Ported by TeamGrav
-  url: http://afnizar.com
-  url2: http://getgrav.org
+  name: Abel
+  email: zxz054321@foxmail.com
+  footer: 'handcrafted by @flamekaizar'
+  footer2: 'Ported by TeamGrav'
+  url: 'http://afnizar.com'
+  url2: 'http://getgrav.org'
+taxonomies:
+  - category
+  - tag
 metadata:
-    description: 'Saturn is free GRAV theme by @flamekaizar, ported by Team Grav.'
-
-# Main Menu
+  description: 'Saturn is free GRAV theme by @flamekaizar, ported by Team Grav.'
+summary:
+  enabled: true
+  format: short
+  size: 300
+  delimiter: '==='
+blog:
+  route: /blog
+intro: '代码如诗'
+intro_avatar: avatar.png
 menu:
-  - text: External link
-    link: "#" 
-
-social: 
-  - icon: send
-    link: "mailto:afnizarhilmi@gmail.com" 
-  - icon: twitter
-    link: "http://twitter.com/flamekaizar" 
-  - icon: dribbble
-    link: "http://dribbble.com/flamekaizar"  
-  - icon: behance
-    link: "http://behance.com/flamekaizar"    
+  -
+    text: 'External link'
+    link: '#'
+social:
+  -
+    icon: send
+    link: 'mailto:afnizarhilmi@gmail.com'
+  -
+    icon: twitter
+    link: 'http://twitter.com/flamekaizar'
+  -
+    icon: dribbble
+    link: 'http://dribbble.com/flamekaizar'
+  -
+    icon: behance
+    link: 'http://behance.com/flamekaizar'
