@@ -3,16 +3,28 @@ title: About
 route: about
 ---
 
-![About Image](about.jpeg?cropResize=400,200){.left} Nulla vitae elit libero, a pharetra augue. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla. Curabitur blandit tempus porttitor. Curabitur blandit tempus porttitor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+Abel是一位全栈（偏后端）开发者，现就职于南方报业传媒集团，任重点项目部研发工程师。
 
-Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
 
-Cras mattis consectetur purus sit amet fermentum. Etiam porta sem malesuada magna mollis euismod. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue.
 
-Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+## 常用技术
 
->Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+### 前端
 
-<br />
+- Bootstrap
+- Element
+- Vue.js
 
-[Button](https://www.google.com) {.btn}
+### 后端
+
+- Laravel
+- Lumen
+
+### 服务端
+
+- Nginx
+- PHP
+- MySQL
+- Memcached
+- Redis
+
