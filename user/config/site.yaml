@@ -19,7 +19,7 @@ summary:
   delimiter: '==='
 blog:
   route: /blog
-intro: '代码如诗'
+intro: '代码如诗，架构如画'
 intro_avatar: avatar.png
 #menu:
 #  -
@@ -28,13 +28,4 @@ intro_avatar: avatar.png
 social:
   -
     icon: send
-    link: 'mailto:afnizarhilmi@gmail.com'
-  -
-    icon: twitter
-    link: 'http://twitter.com/flamekaizar'
-  -
-    icon: dribbble
-    link: 'http://dribbble.com/flamekaizar'
-  -
-    icon: behance
-    link: 'http://behance.com/flamekaizar'
+    link: 'mailto:zxz054321@foxmail.com'
