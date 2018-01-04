@@ -1,9 +1,9 @@
 ---
-title: About
-route: about
+title: Resume
+route: resume
 ---
 
-Abel是一位全栈（偏后端）开发者，现就职于南方报业传媒集团，任重点项目部研发工程师。
+Abel是一位全栈（偏后端）开发者，现就职于南方报业传媒集团，任研发工程师。
 
 
 
@@ -27,4 +27,3 @@ Abel是一位全栈（偏后端）开发者，现就职于南方报业传媒集�
 - MySQL
 - Memcached
 - Redis
-

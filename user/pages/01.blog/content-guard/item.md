@@ -46,7 +46,7 @@ author: Abel
 
 因工作中经常需要在PHP层代理API请求，故将相关逻辑抽离出来，做成一个Composer包发布。
 
-Github: https://github.com/zxz054321/api-proxy
+Github: [https://github.com/zxz054321/api-proxy](https://github.com/zxz054321/api-proxy)
 
 ### Repository层
 
