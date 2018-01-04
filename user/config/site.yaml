@@ -21,10 +21,10 @@ blog:
   route: /blog
 intro: '代码如诗'
 intro_avatar: avatar.png
-menu:
-  -
-    text: 'External link'
-    link: '#'
+#menu:
+#  -
+#    text: 'External link'
+#    link: '#'
 social:
   -
     icon: send
