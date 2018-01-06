@@ -12,7 +12,7 @@ content:
     limit: 5
     pagination: true
 feed:
-    description: 'Abel's Blog'
+    description: "Abel's Blog"
     limit: 10
 pagination: true
 ---
