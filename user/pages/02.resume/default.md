@@ -11,6 +11,8 @@ Abel 是一名全栈偏后端开发者，现就职于南方报业传媒集团，
 
 2017-12-22 [内容安全卫士](../blog/content-guard) <span class="desc">监控并辅助修正政务类网站的内容错误、用法错误</span>
 
+2017-12-22 [Api Proxy](../blog/api-proxy) <span class="desc">适用于 Laravel 框架的简单 API 代理工具包</span>
+
 2017-12-07 [省府网办事指南数据项目](../blog/guide-data)
 
 ## 常用技术
