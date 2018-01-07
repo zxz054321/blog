@@ -47,6 +47,6 @@ ApiProxy::enableLog();
 
 
 
-## Github
+## GitHub
 
 [https://github.com/zxz054321/api-proxy](https://github.com/zxz054321/api-proxy)

@@ -73,6 +73,6 @@ sudo chmod 777 install-node.sh && ./install-node.sh
 ```
 
 
-## Github
+## GitHub
 
 [https://github.com/zxz054321/laravel4china](https://github.com/zxz054321/laravel4china)
