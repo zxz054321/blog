@@ -19,6 +19,8 @@ Abel 是一名全栈偏后端开发者，现就职于南方报业传媒集团，
 
 2016-03-30 [Aurora 高性能高并发框架](../blog/aurora) <span class="desc">专为丧心病狂的极限性能打造的高性能高并发框架</span>
 
+2016-03-30 [Lightning 高性能框架](../blog/lightning) <span class="desc">建立在 Phalcon 之上的高性能框架，专为 Web 艺术家打造</span>
+
 ## 常用技术
 
 ### 前端
