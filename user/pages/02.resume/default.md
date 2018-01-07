@@ -17,6 +17,8 @@ Abel 是一名全栈偏后端开发者，现就职于南方报业传媒集团，
 
 2016-08-26 [Laravel 中国版](../blog/laravel4china) <span class="desc">更符合国情、更适合作为新项目基石的中国版 Laravel</span>
 
+2016-03-30 [Aurora 高性能高并发框架](../blog/aurora) <span class="desc">专为丧心病狂的极限性能打造的高性能高并发框架</span>
+
 ## 常用技术
 
 ### 前端
