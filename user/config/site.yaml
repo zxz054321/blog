@@ -4,14 +4,12 @@ author:
   name: Abel
   email: zxz054321@foxmail.com
   footer: 'handcrafted by @flamekaizar'
-  footer2: 'Ported by TeamGrav'
   url: 'http://afnizar.com'
-  url2: 'http://getgrav.org'
 taxonomies:
   - category
   - tag
 metadata:
-  description: 'Saturn is free GRAV theme by @flamekaizar, ported by Team Grav.'
+  description: "Abel's personal website."
 summary:
   enabled: true
   format: short
@@ -20,7 +18,6 @@ summary:
 blog:
   route: /blog
 intro: '代码如诗，架构如画'
-intro_avatar: avatar.png
 #menu:
 #  -
 #    text: 'External link'
@@ -29,3 +26,6 @@ social:
   -
     icon: send
     link: 'mailto:zxz054321@foxmail.com'
+  -
+    icon: github
+    link: 'https://github.com/zxz054321/'

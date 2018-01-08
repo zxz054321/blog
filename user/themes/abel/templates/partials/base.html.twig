@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>{% if header.title %}{{ header.title }} | {% endif %}{{ site.title }}</title>
+
+        {% include 'partials/metadata.html.twig' %}
+
+        {% block stylesheets %}
+            {% do assets.addCss('https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css',999) %}
+            {% do assets.addCss('https://cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css',999) %}
+            {% do assets.addCss('theme://css-compiled/custom.css') %}
+        {% endblock %}
+        {{ assets.css() }}
+    </head>
+    <body class="{{ page.header.body_classes }}">
+
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#top-navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="{{ base_url_absolute }}">{{ site.title }}</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="top-navbar">
+                    {% include 'partials/navigation.html.twig' %}
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </header>
+
+    <div class="intro">
+        <div class="container">
+            <p class="p-intro">{{ site.intro }}</p>
+        </div>
+    </div>
+
+    {% block body %}
+        <div class="content">
+            <div class="container">
+                {% block content %}{% endblock %}
+            </div>
+        </div>
+    {% endblock %}
+
+    <footer class="container">
+        <ul class="list-inline text-center">
+            {% for item in site.social %}
+                <li><a href="{{ item.link }}"><i class="fa fa-{{ item.icon }}"></i></a></li>
+            {% endfor %}
+        </ul>
+    </footer>
+
+    {% block javascripts %}
+        {% do assets.addJs('https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js',999) %}
+        {% do assets.addJs('https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js',999) %}
+    {% endblock %}
+    {{ assets.js() }}
+
+    </body>
+</html>

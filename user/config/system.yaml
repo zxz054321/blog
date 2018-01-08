@@ -22,7 +22,7 @@ home:
   alias: /blog
   hide_in_urls: false
 pages:
-  theme: mine
+  theme: abel
   order:
     by: default
     dir: asc
