@@ -2,10 +2,10 @@
 
 {% block content %}
     <article class="post">
-        <header>
-            <h2>{{ page.header.title }}</h2>
-        </header>
+        <h1 class="title">{{ page.header.title }}</h1>
 
-        {{ page.content }}
+        <div class="in-content">
+            {{ page.content }}
+        </div>
     </article>
 {% endblock %}

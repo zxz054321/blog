@@ -12,6 +12,8 @@ header {
 }
 
 footer {
+    margin-top: 6em;
+
     a {
         color: #a5a5a5;
     }
@@ -104,15 +106,23 @@ footer {
 .content {
     padding-top: 75px;
 
-    .post {
-        //margin-bottom: 80px;
+    .blog-list p {
+        margin-bottom: 1.65em;
+    }
 
-        h1 {
+    .post {
+        h1, h2, h3, h4, h5, h6 {
             color: #000;
             font-family: "Lato", sans-serif;
-            font-size: 22px;
             font-weight: 400;
-            position: relative;
+
+            &:not(:first-of-type) {
+                margin-top: 1.5em;
+            }
+        }
+
+        h1 {
+            font-size: 22px;
 
             &:hover {
                 color: #FF6C40;
@@ -120,12 +130,23 @@ footer {
             }
         }
 
+        h2 {
+            font-size: 20px;
+        }
+
+        h3 {
+            font-size: 18px;
+        }
+
+        h4 {
+            font-size: 16px;
+        }
+
         a {
             text-decoration: none;
         }
 
         p {
-            margin-bottom: 1.65em;
             color: #535353;
             font-family: "Open Sans", sans-serif;
             font-size: 15px;
@@ -217,7 +238,7 @@ footer {
 }
 
 .pagination li {
-    margin: 0 1px 1.65em;
+    margin: 0 2px;
 
     span {
         cursor: default;

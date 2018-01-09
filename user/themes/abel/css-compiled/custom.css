@@ -8,6 +8,9 @@ a {
 header {
   padding-top: 20px;
 }
+footer {
+  margin-top: 6em;
+}
 footer a {
   color: #a5a5a5;
 }
@@ -84,22 +87,47 @@ footer a:hover {
 .content {
   padding-top: 75px;
 }
-.content .post h1 {
+.content .blog-list p {
+  margin-bottom: 1.65em;
+}
+.content .post h1,
+.content .post h2,
+.content .post h3,
+.content .post h4,
+.content .post h5,
+.content .post h6 {
   color: #000;
   font-family: "Lato", sans-serif;
-  font-size: 22px;
   font-weight: 400;
-  position: relative;
+}
+.content .post h1:not(:first-of-type),
+.content .post h2:not(:first-of-type),
+.content .post h3:not(:first-of-type),
+.content .post h4:not(:first-of-type),
+.content .post h5:not(:first-of-type),
+.content .post h6:not(:first-of-type) {
+  margin-top: 1.5em;
+}
+.content .post h1 {
+  font-size: 22px;
 }
 .content .post h1:hover {
   color: #FF6C40;
   transition: all 0.2s ease-in-out;
 }
+.content .post h2 {
+  font-size: 20px;
+}
+.content .post h3 {
+  font-size: 18px;
+}
+.content .post h4 {
+  font-size: 16px;
+}
 .content .post a {
   text-decoration: none;
 }
 .content .post p {
-  margin-bottom: 1.65em;
   color: #535353;
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
@@ -176,7 +204,7 @@ footer a:hover {
   display: none;
 }
 .pagination li {
-  margin: 0 1px 1.65em;
+  margin: 0 2px;
 }
 .pagination li span {
   cursor: default;
