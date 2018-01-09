@@ -144,6 +144,8 @@ footer a:hover {
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
   font-weight: 400;
+  word-break: break-all;
+  word-wrap: break-word;
 }
 .content .post .in-content {
   margin-top: 2em;
