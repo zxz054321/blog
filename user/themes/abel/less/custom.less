@@ -2,8 +2,16 @@ body {
     padding-bottom: 50px;
     line-height: 1.75;
 
+    @media screen and (max-width: 320px) {
+        padding-bottom: 25px;
+    }
+
     & > header {
         padding-top: 20px;
+
+        @media screen and (max-width: 320px) {
+            padding-top: 10px;
+        }
     }
 }
 
@@ -13,6 +21,10 @@ a {
 
 footer {
     margin-top: 6em;
+
+    @media screen and (max-width: 320px) {
+        margin-top: 3.5em;
+    }
 
     a {
         color: #a5a5a5;
@@ -28,6 +40,10 @@ footer {
 }
 
 .navbar {
+    @media screen and (max-width: 320px) {
+        margin-bottom: 10px;
+    }
+
     a:focus,
     a:hover {
         background: #fff !important;
@@ -110,6 +126,10 @@ footer {
 .content {
     padding-top: 75px;
 
+    @media screen and (max-width: 320px) {
+        padding-top: 75/2px;
+    }
+
     .blog-list p {
         margin-bottom: 1.65em;
     }
@@ -119,6 +139,10 @@ footer {
         margin: 6em 0;
         width: 120px;
         border-top-width: 2px;
+
+        @media screen and (max-width: 320px) {
+            margin: 3.5em 0;
+        }
 
         &:first-of-type {
             display: none;
@@ -220,6 +244,10 @@ footer {
             font-size: 12px;
             font-weight: 700;
             text-transform: uppercase;
+
+            @media screen and (max-width: 320px) {
+                margin: 5/2em 0;
+            }
 
             span {
                 font-weight: 400;

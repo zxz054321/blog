@@ -2,14 +2,29 @@ body {
   padding-bottom: 50px;
   line-height: 1.75;
 }
+@media screen and (max-width: 320px) {
+  body {
+    padding-bottom: 25px;
+  }
+}
 body > header {
   padding-top: 20px;
+}
+@media screen and (max-width: 320px) {
+  body > header {
+    padding-top: 10px;
+  }
 }
 a {
   font-family: "Open Sans", sans-serif;
 }
 footer {
   margin-top: 6em;
+}
+@media screen and (max-width: 320px) {
+  footer {
+    margin-top: 3.5em;
+  }
 }
 footer a {
   color: #a5a5a5;
@@ -19,6 +34,11 @@ footer a:hover {
 }
 .container {
   max-width: 662px;
+}
+@media screen and (max-width: 320px) {
+  .navbar {
+    margin-bottom: 10px;
+  }
 }
 .navbar a:focus,
 .navbar a:hover {
@@ -90,6 +110,11 @@ footer a:hover {
 .content {
   padding-top: 75px;
 }
+@media screen and (max-width: 320px) {
+  .content {
+    padding-top: 37.5px;
+  }
+}
 .content .blog-list p {
   margin-bottom: 1.65em;
 }
@@ -98,6 +123,11 @@ footer a:hover {
   margin: 6em 0;
   width: 120px;
   border-top-width: 2px;
+}
+@media screen and (max-width: 320px) {
+  .content .post-divider {
+    margin: 3.5em 0;
+  }
 }
 .content .post-divider:first-of-type {
   display: none;
@@ -190,6 +220,11 @@ footer a:hover {
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
+}
+@media screen and (max-width: 320px) {
+  .content .post .foot-post {
+    margin: 2.5em 0;
+  }
 }
 .content .post .foot-post span {
   font-weight: 400;
