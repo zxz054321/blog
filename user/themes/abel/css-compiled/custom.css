@@ -93,6 +93,15 @@ footer a:hover {
 .content .blog-list p {
   margin-bottom: 1.65em;
 }
+.content .post-divider {
+  text-align: left;
+  margin: 6em 0;
+  width: 120px;
+  border-top-width: 2px;
+}
+.content .post-divider:first-of-type {
+  display: none;
+}
 .content .post h1,
 .content .post h2,
 .content .post h3,
@@ -173,8 +182,7 @@ footer a:hover {
 }
 .content .post .foot-post {
   position: relative;
-  margin-top: 5em;
-  margin-bottom: 1.65em;
+  margin: 5em 0;
   color: #535353;
   font-family: "Open Sans", sans-serif;
   font-size: 12px;
@@ -194,26 +202,23 @@ footer a:hover {
 .content .post .foot-post a:hover {
   border-bottom: 1px dotted #ccc;
 }
-.content .post .btn-black {
+.content .post .prev-next .btn {
   font-family: "Helvetica Neue", Helvetica, Tahoma, sans-serif;
   font-size: 1em;
   font-weight: 400;
   margin: 0;
+  padding: .55em 2.5em;
   border: 0;
   border-radius: 2px;
   box-shadow: none;
-  padding: .55em 2.5em;
   color: rgba(255, 255, 255, 0.9);
   background: #0f0f0f;
 }
-.content .post-divider {
-  text-align: left;
-  margin: 6em 0;
-  width: 120px;
-  border-top-width: 2px;
-}
-.content .post-divider:first-of-type {
-  display: none;
+@media screen and (max-width: 320px) {
+  .content .post .prev-next .btn {
+    font-size: 0.9em;
+    padding: 0.495em 2.25em;
+  }
 }
 .pagination li {
   margin: 0 2px;

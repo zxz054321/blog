@@ -56,11 +56,15 @@
     {% if show_prev_next %}
         <p class="prev-next">
             {% if not page.isLast %}
-                <a class="btn btn-black" href="{{ page.prevSibling.url }}"><i class="fa fa-arrow-left"></i> PREVIOUS</a>
+                <a class="btn" href="{{ page.prevSibling.url }}">
+                    <i class="fa fa-arrow-left"></i> PREVIOUS
+                </a>
             {% endif %}
 
             {% if not page.isFirst %}
-                <a class="btn btn-black" href="{{ page.nextSibling.url }}">NEXT <i class="fa fa-arrow-right"></i></a>
+                <a class="btn" href="{{ page.nextSibling.url }}">
+                    NEXT <i class="fa fa-arrow-right"></i>
+                </a>
             {% endif %}
         </p>
     {% endif %}
