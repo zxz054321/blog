@@ -2,11 +2,11 @@ body {
   padding-bottom: 50px;
   line-height: 1.75;
 }
+body > header {
+  padding-top: 20px;
+}
 a {
   font-family: "Open Sans", sans-serif;
-}
-header {
-  padding-top: 20px;
 }
 footer {
   margin-top: 6em;
