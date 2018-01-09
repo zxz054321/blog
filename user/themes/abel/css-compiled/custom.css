@@ -209,22 +209,19 @@ footer a:hover {
 .pagination li {
   margin: 0 2px;
 }
-.pagination li span {
-  cursor: default;
-}
 .pagination li a,
 .pagination li span {
   padding: 7px 9px;
+  line-height: 1;
   border: 0;
   border-radius: 2px;
-  line-height: 1;
   color: #0f0f0f;
 }
-.pagination li.active a,
-.pagination li.active a:hover {
-  color: #ffffff;
-  background-color: #0f0f0f;
+.pagination li span {
+  cursor: default;
 }
+.pagination li.active span,
+.pagination li.active span:hover,
 .pagination li a:focus,
 .pagination li a:hover {
   background-color: #0f0f0f;

@@ -244,26 +244,22 @@ footer {
 .pagination li {
     margin: 0 2px;
 
+    a, span {
+        padding: 7px 9px;
+        line-height: 1;
+
+        border: 0;
+        border-radius: 2px;
+
+        color: #0f0f0f;
+    }
+
     span {
         cursor: default;
     }
 
-    a,
-    span {
-        padding: 7px 9px;
-        border: 0;
-        border-radius: 2px;
-        line-height: 1;
-        color: #0f0f0f;
-    }
-
-    &.active {
-        a, a:hover {
-            color: #ffffff;
-            background-color: #0f0f0f;
-        }
-    }
-
+    &.active span,
+    &.active span:hover,
     a:focus,
     a:hover {
         background-color: #0f0f0f;
