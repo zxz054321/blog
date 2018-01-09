@@ -157,12 +157,27 @@ footer {
             font-weight: 400;
         }
 
-        img {
-            margin-bottom: 20px;
-        }
-
         .in-content {
             margin-top: 2em;
+
+            img {
+                margin-bottom: 20px;
+                max-width: 100%;
+                height: auto;
+            }
+   
+            pre {
+                padding: 0;
+                border: 0;
+            }
+
+            code.hljs {
+                padding: 1em;
+            }
+
+            .desc {
+                color: rgba(0, 0, 0, .62);
+            }
         }
 
         .read-more {
@@ -209,10 +224,6 @@ footer {
             a:hover {
                 border-bottom: 1px dotted #ccc
             }
-        }
-
-        .desc {
-            color: rgba(0, 0, 0, .62);
         }
 
         .btn-black {

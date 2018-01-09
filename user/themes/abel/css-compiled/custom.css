@@ -136,11 +136,23 @@ footer a:hover {
   font-size: 15px;
   font-weight: 400;
 }
-.content .post img {
-  margin-bottom: 20px;
-}
 .content .post .in-content {
   margin-top: 2em;
+}
+.content .post .in-content img {
+  margin-bottom: 20px;
+  max-width: 100%;
+  height: auto;
+}
+.content .post .in-content pre {
+  padding: 0;
+  border: 0;
+}
+.content .post .in-content code.hljs {
+  padding: 1em;
+}
+.content .post .in-content .desc {
+  color: rgba(0, 0, 0, 0.62);
 }
 .content .post .read-more {
   padding: 5px 10px;
@@ -181,9 +193,6 @@ footer a:hover {
 }
 .content .post .foot-post a:hover {
   border-bottom: 1px dotted #ccc;
-}
-.content .post .desc {
-  color: rgba(0, 0, 0, 0.62);
 }
 .content .post .btn-black {
   font-family: "Helvetica Neue", Helvetica, Tahoma, sans-serif;
