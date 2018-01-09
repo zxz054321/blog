@@ -3,8 +3,7 @@ default_lang: en
 author:
   name: Abel
   email: zxz054321@foxmail.com
-  footer: 'handcrafted by @flamekaizar'
-  url: 'http://afnizar.com'
+  url: 'https://resume.air-soft.cn'
 taxonomies:
   - category
   - tag

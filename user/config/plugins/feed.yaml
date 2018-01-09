@@ -1,6 +1,6 @@
 enabled: true
 limit: 10
-description: 'My Feed Description'
+description: 'Abel''s personal website.'
 lang: en-us
 length: 500
 enable_json_feed: true
