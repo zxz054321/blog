@@ -118,6 +118,9 @@ footer a:hover {
 .content .blog-list p {
   margin-bottom: 1.65em;
 }
+.content .blog-list blockquote p:last-of-type {
+  margin-bottom: 0;
+}
 .content .post-divider {
   text-align: left;
   margin: 6em 0;
