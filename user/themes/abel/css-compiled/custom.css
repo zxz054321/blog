@@ -161,6 +161,7 @@ footer a:hover {
   transition: all 0.2s ease-in-out;
 }
 .content .post h2 {
+  margin-top: 2em;
   font-size: 20px;
 }
 .content .post h3 {
@@ -182,6 +183,9 @@ footer a:hover {
 }
 .content .post .in-content {
   margin-top: 2em;
+}
+.content .post .in-content a {
+  color: #de2c3b;
 }
 .content .post .in-content img {
   margin-bottom: 20px;

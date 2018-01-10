@@ -3,7 +3,13 @@ title: Resume
 route: resume
 ---
 
-Abel 是一名全栈偏后端开发者，现就职于南方报业传媒集团，任研发工程师。
+Abel 是一名全栈偏后端开发者，现就职于 [南方报业传媒集团](http://www.southcn.com/)，任研发工程师。
+
+## 经历
+
+- 曾任 [ZAKER](http://www.myzaker.com/) PHP 开发工程师
+- 曾合伙创立 [摩纷出行](http://www.more-fun.cn/)
+- 曾参与 [腾讯微校](http://weixiao.qq.com/) 项目实践
 
 ## 时间线
 
