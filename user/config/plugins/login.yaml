@@ -16,7 +16,7 @@ rememberme:
   name: grav-rememberme
 max_pw_resets_count: 0
 max_pw_resets_interval: 60
-max_login_count: 0
+max_login_count: 3
 max_login_interval: 2
 user_registration:
   enabled: false
