@@ -121,6 +121,9 @@ a {
 .content .blog-list blockquote p:last-of-type {
   margin-bottom: 0;
 }
+.content .blog-list .contact-me {
+  display: none;
+}
 .content .post-divider {
   text-align: left;
   margin: 6em 0;
