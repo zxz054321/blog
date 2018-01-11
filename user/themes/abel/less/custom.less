@@ -13,26 +13,26 @@ body {
             padding-top: 10px;
         }
     }
+
+    & > footer {
+        margin-top: 6em;
+
+        @media screen and (max-width: 320px) {
+            margin-top: 3.5em;
+        }
+
+        a {
+            color: #a5a5a5;
+        }
+
+        a:hover {
+            color: #e85f37;
+        }
+    }
 }
 
 a {
     font-family: "Open Sans", sans-serif
-}
-
-footer {
-    margin-top: 6em;
-
-    @media screen and (max-width: 320px) {
-        margin-top: 3.5em;
-    }
-
-    a {
-        color: #a5a5a5;
-    }
-
-    a:hover {
-        color: #e85f37;
-    }
 }
 
 .container {
@@ -201,10 +201,10 @@ footer {
             word-wrap: break-word;
         }
 
-        .in-content {
+        .post-content {
             margin-top: 2em;
 
-            a{
+            a {
                 color: #de2c3b;
             }
 
@@ -247,7 +247,7 @@ footer {
             }
         }
 
-        .foot-post {
+        .post-foot {
             position: relative;
             margin: 5em 0;
             color: #535353;

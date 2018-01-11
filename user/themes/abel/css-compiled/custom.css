@@ -15,22 +15,22 @@ body > header {
     padding-top: 10px;
   }
 }
-a {
-  font-family: "Open Sans", sans-serif;
-}
-footer {
+body > footer {
   margin-top: 6em;
 }
 @media screen and (max-width: 320px) {
-  footer {
+  body > footer {
     margin-top: 3.5em;
   }
 }
-footer a {
+body > footer a {
   color: #a5a5a5;
 }
-footer a:hover {
+body > footer a:hover {
   color: #e85f37;
+}
+a {
+  font-family: "Open Sans", sans-serif;
 }
 .container {
   max-width: 662px;
@@ -181,25 +181,25 @@ footer a:hover {
   word-break: break-all;
   word-wrap: break-word;
 }
-.content .post .in-content {
+.content .post .post-content {
   margin-top: 2em;
 }
-.content .post .in-content a {
+.content .post .post-content a {
   color: #de2c3b;
 }
-.content .post .in-content img {
+.content .post .post-content img {
   margin-bottom: 20px;
   max-width: 100%;
   height: auto;
 }
-.content .post .in-content pre {
+.content .post .post-content pre {
   padding: 0;
   border: 0;
 }
-.content .post .in-content code.hljs {
+.content .post .post-content code.hljs {
   padding: 1em;
 }
-.content .post .in-content .desc {
+.content .post .post-content .desc {
   color: rgba(0, 0, 0, 0.62);
 }
 .content .post .read-more {
@@ -219,7 +219,7 @@ footer a:hover {
   color: #fff;
   transition: all 0.25s ease-in-out;
 }
-.content .post .foot-post {
+.content .post .post-foot {
   position: relative;
   margin: 5em 0;
   color: #535353;
@@ -229,21 +229,21 @@ footer a:hover {
   text-transform: uppercase;
 }
 @media screen and (max-width: 320px) {
-  .content .post .foot-post {
+  .content .post .post-foot {
     margin: 2.5em 0;
   }
 }
-.content .post .foot-post span {
+.content .post .post-foot span {
   font-weight: 400;
   text-decoration: none;
   color: #535353;
 }
-.content .post .foot-post a {
+.content .post .post-foot a {
   font-weight: 400;
   text-decoration: none;
   color: #535353;
 }
-.content .post .foot-post a:hover {
+.content .post .post-foot a:hover {
   border-bottom: 1px dotted #ccc;
 }
 .content .post .prev-next .btn {

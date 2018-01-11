@@ -7,7 +7,7 @@
         {% endif %}
     </header>
 
-    <div class="in-content">
+    <div class="post-content">
         {% if page.header.continue_link is sameas(false) %}
             {{ page.content }}
             {% if not truncate %}
@@ -29,7 +29,9 @@
         {% endif %}
     </div>
 
-    <div class="foot-post">
+    <footer class="post-foot">
+        <p><a href="#social">如需交流，请点击页面底部图标联系我</a></p>
+
         <div>
             <strong>Date: </strong>
             <span>{{ page.date|date() }}</span>
@@ -51,7 +53,7 @@
                 {% endfor %}
             </div>
         {% endif %}
-    </div>
+    </footer>
 
     {% if show_prev_next %}
         <p class="prev-next">
