@@ -6,4 +6,6 @@ author:
   name: Abel
   email: zxz054321@foxmail.com
   url: https://resume.air-soft.cn
-homepage: https://github.com/zxz054321/blog
+
+dependencies:
+  - { name: highlight, version: '>=1.4.0' }
