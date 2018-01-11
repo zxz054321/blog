@@ -10,8 +10,8 @@
         {% include 'partials/metadata.html.twig' %}
 
         {% block stylesheets %}
-            {% do assets.addCss('https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css',999) %}
-            {% do assets.addCss('https://cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css',999) %}
+            {% do assets.addCss('theme://css/bootstrap.min.css',999) %}
+            {% do assets.addCss('theme://css/font-awesome.min.css',999) %}
             {% do assets.addCss('theme://css-compiled/custom.css') %}
         {% endblock %}
         {{ assets.css() }}
@@ -64,8 +64,8 @@
     </footer>
 
     {% block javascripts %}
-        {% do assets.addJs('https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js',999) %}
-        {% do assets.addJs('https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js',999) %}
+        {% do assets.addJs('theme://js/jquery.min.js',999) %}
+        {% do assets.addJs('theme://js/bootstrap.min.js',999) %}
     {% endblock %}
     {{ assets.js() }}
 
