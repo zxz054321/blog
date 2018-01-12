@@ -19,7 +19,7 @@ Asset Manager 是 Grav 的一个内置模块，可针对托管的 CSS / JS 文�
 
 这是系统默认配置文件  `system.yaml` 中的片段：
 
-```yaml
+```
 assets:                                # Configuration for Assets Manager (JS, CSS)
   css_pipeline: false                  # If true, enables the CSS pipeline, combining multiple CSS resources into one
   css_pipeline_include_externals: true # Include external CSS resources from the pipeline
@@ -38,7 +38,7 @@ assets:                                # Configuration for Assets Manager (JS, C
 
 可按以下配置开启优化：
 
-```Yaml
+```
 assets:
   # 开启 CSS 管道
   css_pipeline: true
@@ -69,7 +69,7 @@ assets:
 
   `system.yaml` 中有一项 `append_url_extension`，其作用是设置页面后缀，俗称 “伪静态”。建议采用以下配置：
 
-```yaml
+```
 append_url_extension: .html
 ```
 
