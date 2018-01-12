@@ -7,8 +7,6 @@ author:
 taxonomies:
   - category
   - tag
-metadata:
-  description: "Abel's personal website."
 summary:
   enabled: true
   format: short
@@ -17,10 +15,6 @@ summary:
 blog:
   route: /blog
 intro: '代码如诗，架构如画'
-#menu:
-#  -
-#    text: 'External link'
-#    link: '#'
 social:
   -
     icon: send
