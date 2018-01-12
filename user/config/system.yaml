@@ -27,7 +27,7 @@ pages:
     count: 20
   dateformat:
     short: 'jS M Y'
-    long: 'F jS \a\t g:ia'
+    long: 'F d, Y'
   publish_dates: true
   process:
     markdown: true
