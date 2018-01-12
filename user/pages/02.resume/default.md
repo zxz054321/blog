@@ -27,6 +27,8 @@ Abel 是一名全栈偏后端开发者，现就职于 [南方报业传媒集团]
 
 2016-08-26 [Laravel 中国版](../blog/laravel4china.html) <span class="desc">更符合国情、更适合作为新项目基石的中国版 Laravel</span>
 
+2016-06-23 [ZOL 爬虫库](../blog/zolcrawler.html) <span class="desc">一个专用于 [中关村在线](http://www.zol.com.cn/)  的爬虫库</span>
+
 2016-06-16 [站点标题生成器](../blog/titles.html) <span class="desc">一个优雅的站点标题生成器，为 Laravel 5.1+ 而打造</span>
 
 2016-03-30 [Aurora 高性能高并发框架](../blog/aurora.html) <span class="desc">专为丧心病狂的极限性能打造的高性能高并发框架</span>
