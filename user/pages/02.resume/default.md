@@ -14,10 +14,23 @@ Abel 是一名全栈偏后端开发者，现就职于 [南方报业传媒集团]
 - 曾任 [ZAKER](http://www.myzaker.com/) PHP 开发工程师
 - 曾合伙创立 [摩纷出行](http://www.more-fun.cn/)
 - 曾参与 [腾讯微校](http://weixiao.qq.com/) 项目实践
+- 大四曾加入本地创业公司 广州微策 任技术主管
 
 ## 时间线
 
-2018-01-17 [通用用户中心服务](#) <span class="desc">SSO 服务</span>
+2018-07-15 [广东省政府征集调查系统](#) <span class="desc">政务版腾讯问卷</span>
+
+2018-07-02 [广州市人大官网内容发布系统](#)
+
+2018-06-30 [广东省政府信息依申请公开系统](#)
+
+2018-06-01 [广东省网站集约化内容管理系统](#) <span class="desc">广东省数字政府建设重点项目《广东政府网站集约化平台》核心模块，负载全省所有省直属、地市政企事业单位网站</span>
+
+2018-03-02 [Preference](#) <span class="desc">为 Laravel 打造的“简单用户配置持久化”包</span>
+
+**2018-02-11 [红包大战](#) <span class="desc">可承载巨大并发的公众号版抢红包</span>**
+
+2018-01-17 [南方网通用用户中心服务](#) <span class="desc">SSO 服务</span>
 
 2018-01-01 [个人网站2018版](../blog/website-v2018.html) <span class="desc">基于 Grav 打造</span>
 
@@ -25,11 +38,15 @@ Abel 是一名全栈偏后端开发者，现就职于 [南方报业传媒集团]
 
 2017-12-22 [Api Proxy](../blog/api-proxy.html) <span class="desc">适用于 Laravel 框架的简单 API 代理工具包</span>
 
-2017-12-07 [省府网办事指南数据项目](../blog/guide-data)
+2017-12-07 [省府网办事指南模块](../blog/guide-data)
+
+2017-12-05 [省府网效能监督栏目模块](#)
+
+2017-12-02 [广东微政微信推送服务](#)
 
 2017-04-14 [闪投](../blog/toupiao) <span class="desc">一个为大客户定制、不会被封号的公众号回复版投票系统</span>
 
-**2017-02-18 [文库](#) <span class="desc">类似于百度文库但专注于高校的文库平台</span>**
+**2017-02-18 [大学文库](#) <span class="desc">类似于百度文库但专注于高校的文库平台</span>**
 
 **2016-08-26 [Laravel 中国版](../blog/laravel4china.html) <span class="desc">更符合国情、更适合作为新项目基石的中国版 Laravel</span>**
 
